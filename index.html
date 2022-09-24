@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Me study</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<div>
+	<div class="toolbar">
+		<div class="tools">
+			<div class="tool pen tool-active"></div>
+			<div class="tool eraser"></div>
+		</div>
+		<div class="thickness">
+			<div class="thickness-wrapper">
+				<div class="thickness-5"></div>
+			</div>
+			<div class="thickness-wrapper thickness-active">
+				<div 	class="thickness-10 "></div>
+			</div>
+			<div class="thickness-wrapper">
+				<div class="thickness-15"></div>
+			</div>
+		</div>
+		<div class="colors">
+			<div class="color black color-active"></div>
+			<div class="color red"></div>
+			<div class="color green"></div>
+		</div>
+		<button id="clear">Clear</button>
+		<button id="save">Save this masterpiece</button>
+	</div>
+	<canvas id="canvas"></canvas>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
